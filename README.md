@@ -16,6 +16,13 @@ Just for fun. nothing else...
 
 Check [releases](https://github.com/qwreey75/badappleInRblx/releases)
 
+# Run
+
+Execute this on command line!
+```lua
+require(game.ReplicatedFirst.BadApple)(Instance.new("ScreenGui",game.StarterGui))
+```
+
 # Building
 
 ## Requirements
