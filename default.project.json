@@ -7,6 +7,15 @@
             "BadApple": {
                 "$path": "out"
             }
+        },
+        "Workspace": {
+            "$className": "Workspace",
+            "Baseplate": {
+                "$properties": {
+                    "Size": [120,5,120],
+                    "Anchored": true
+                }
+            }
         }
     }
 }
