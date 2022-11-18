@@ -1,0 +1,15 @@
+{
+    "name": "badapple",
+    "tree": {
+        "$className": "DataModel",
+        "ReplicatedFirst": {
+            "$className": "ReplicatedFirst",
+            "BadApple": {
+                "$path": "src/client",
+                "vdata":{
+                    "$path": "out/vdata.lua"
+                }
+            }
+        }
+    }
+}

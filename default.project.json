@@ -1,0 +1,12 @@
+{
+    "name": "badapple",
+    "tree": {
+        "$className": "DataModel",
+        "ReplicatedFirst": {
+            "$className": "ReplicatedFirst",
+            "BadApple": {
+                "$path": "out"
+            }
+        }
+    }
+}
