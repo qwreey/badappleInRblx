@@ -31,3 +31,16 @@ require(game.ReplicatedFirst.BadApple)(Instance.new("ScreenGui",game.StarterGui)
  + GNU-Make or CMD
  + [FFmpeg](https://ffmpeg.org/)
 
+# How it works
+
+```lua
+-- PIXEL DATA (INT64)
+--        VPosY V
+-- 1111111111111111 V
+-- ^PosX ^       ^^ V CUTOFF
+--            Color V (NEXT DATA) - REPEAT 2 TIMES => 32 bit used
+```
+
+Using bitfield, Convert two pixel change information into one int32 number  
+With using bit32 lib, ~~just compress every data! (130MB=>10MB)~~  
+And using base64 to avoid overhead of hex
