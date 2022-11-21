@@ -10,7 +10,10 @@ Just for fun. nothing else...
 ## Used sources
 
 **Lua bitmap handler**: https://github.com/max1220/lua-bitmap/blob/master/lua/lua-bitmap/init.lua  
- + Under MIT License
+ + Under MIT License  
+
+**ffmpeg**: https://ffmpeg.org/
+ * Under LGPL License
 
 # Prebuilt Place File
 
